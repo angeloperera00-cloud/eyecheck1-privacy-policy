@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EyeCheck Privacy Policy</title>
+  <style>
+    :root {
+      --bg1: #eef7ff;
+      --bg2: #cfe7ff;
+      --card: rgba(255,255,255,0.9);
+      --text: #0f172a;
+      --muted: #475569;
+      --accent: #2563eb;
+      --border: rgba(15, 23, 42, 0.08);
+      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: linear-gradient(135deg, var(--bg1), var(--bg2));
+      min-height: 100vh;
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+
+    .hero {
+      text-align: left;
+      margin-bottom: 24px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 12px;
+      background: rgba(255,255,255,0.8);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(32px, 5vw, 52px);
+      line-height: 1.05;
+    }
+
+    .subtitle {
+      margin: 0;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .card {
+      background: var(--card);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      padding: 28px;
+    }
+
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .meta-item {
+      background: rgba(37, 99, 235, 0.06);
+      border-radius: 18px;
+      padding: 14px 16px;
+    }
+
+    .meta-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .meta-value {
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    section + section {
+      margin-top: 26px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(15,23,42,0.08);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+    }
+
+    p, li {
+      color: var(--muted);
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    ul {
+      margin: 10px 0 0 0;
+      padding-left: 20px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <div class="eyebrow">Privacy Policy</div>
+      <h1>EyeCheck Privacy Policy</h1>
+      <p class="subtitle">
+        This Privacy Policy explains how EyeCheck collects, uses, and protects information when you use the app.
+        EyeCheck is designed for educational use and aims to keep your experience private and simple.
+      </p>
+    </header>
+
+    <article class="card">
+      <div class="meta">
+        <div class="meta-item">
+          <div class="meta-label">Effective Date</div>
+          <div class="meta-value">March 22, 2026</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">App Name</div>
+          <div class="meta-value">EyeCheck</div>
+        </div>
+        <div class="meta-item">
+          <div class="meta-label">Contact</div>
+          <div class="meta-value">Eyecheck@gmail.com</div>
+        </div>
+      </div>
+
+      <section>
+        <h2>1. Information We Collect</h2>
+        <p>
+          EyeCheck is designed to minimize data collection. Depending on how you use the app, the app may access:
+        </p>
+        <ul>
+          <li>Camera input, to support AR placement and visual simulation features.</li>
+          <li>On-device test selections, such as the myopia level you choose during the experience.</li>
+          <li>Basic app usage information stored locally on your device to improve your experience.</li>
+        </ul>
+        <p>
+          EyeCheck does not require you to create an account to use the main features.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. How We Use Information</h2>
+        <p>Any information processed by EyeCheck is used only to provide app functionality, such as:</p>
+        <ul>
+          <li>Displaying AR charts and vision simulation features.</li>
+          <li>Allowing you to complete vision-related educational interactions inside the app.</li>
+          <li>Improving usability and maintaining app performance.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. On-Device Processing</h2>
+        <p>
+          EyeCheck is designed so that core visual interactions are processed on your device whenever possible.
+          This means camera input and user selections are intended to stay local unless a specific feature clearly requires an external service.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. Data Sharing</h2>
+        <p>
+          EyeCheck does not sell your personal information. We do not share personal data with third parties except when necessary to operate a clearly identified external service or when required by law.
+        </p>
+      </section>
+
+      <section>
+        <h2>5. Data Storage</h2>
+        <p>
+          Information created while using EyeCheck may be stored locally on your device. If you want to remove locally stored information, you can delete the app and its data from your device. If you later add a dedicated delete-data option inside the app, you should update this section accordingly.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Camera Access</h2>
+        <p>
+          EyeCheck may request access to your camera to support AR chart placement and live vision simulation features. Camera access is used only to make these features work inside the app.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Children's Privacy</h2>
+        <p>
+          EyeCheck is not intended to knowingly collect personal information from children. If you believe that a child has provided personal information through the app, please contact us so we can address the issue.
+        </p>
+      </section>
+
+      <section>
+        <h2>8. Medical Disclaimer</h2>
+        <p>
+          EyeCheck is for educational and informational purposes only. It is not a medical device and does not provide diagnosis, treatment, or professional medical advice. Always consult a qualified eye care professional for medical concerns.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time. When we do, we will update the effective date shown at the top of this page.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Contact Us</h2>
+        <p>
+          If you have questions about this Privacy Policy, you can contact us at
+          <a href="Eyecheck@gmail.com">-Eyecheck@gmail.com</a>.
+        </p>
+      </section>
+    </article>
+
+    <p class="footer">Eyecheck@gmail.com</p>
+  </main>
+</body>
+</html>
